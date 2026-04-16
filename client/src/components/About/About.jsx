@@ -82,7 +82,7 @@ function About() {
                     <div className="text-center">
                       <div className="w-40 h-40 mx-auto mb-6 bg-white/30 rounded-full flex items-center justify-center">
                       <img 
-                         src="/doctor.png" 
+                         src="/DrShubhangi.png" 
                           alt="Dr. Shubhangi kumari"
                           className="w-full h-full object-cover"
                       />
@@ -130,7 +130,7 @@ function About() {
               </h3>
               
               <p className="text-gray-600 leading-relaxed">
-                Dr. Sarah Johnson is a highly experienced homeopathic practitioner 
+                Dr. Shubhangi kumari is a highly experienced homeopathic practitioner 
                 with a passion for holistic healthcare. She completed her BHMS from 
                 the prestigious Homeopathy Medical College and later pursued her MD 
                 in Homeopathy from Mumbai University.
