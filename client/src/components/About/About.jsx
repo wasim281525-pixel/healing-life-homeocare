@@ -26,12 +26,12 @@ function About() {
       {/* Background Decorations */}
       <div className="absolute top-0 left-0 w-96 h-96 bg-primary-50 rounded-full filter blur-3xl opacity-50 -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-secondary-50 rounded-full filter blur-3xl opacity-50 translate-x-1/2 translate-y-1/2" />
+      
        <img 
         src="/doctor.png" 
         alt="Doctor"
         className="w-6 h-6 rounded-full object-cover"
       />  
-    
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Section Header */}
         <div className="text-center mb-16">
