@@ -35,7 +35,12 @@ function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="inline-block px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm font-semibold mb-4"
-          >
+            >
+            <img 
+                src="/DrShubhangi.png" 
+                alt="Doctor"
+                className="w-6 h-6 rounded-full object-cover"
+              />  
             About Our Clinic
           </motion.span>
           
