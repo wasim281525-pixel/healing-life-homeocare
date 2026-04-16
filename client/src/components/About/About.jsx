@@ -98,16 +98,23 @@ function About() {
                   <div className="absolute inset-0 bg-gradient-to-t from-primary-900/80 via-transparent to-transparent" />
                   
                   {/* Info Overlay */}
-                   <img
+                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+
+                    <img
                       src="/DrShubhangi.png"
                       alt="Doctor"
-                      className="w-60 h-60 mx-auto mb-6 rounded-full object-contain border-4 border-white shadow-lg"
+                      className="w-60 h-60 mx-auto mb-4 rounded-full object-contain border-4 border-white shadow-lg"
                     />
-                    <h3 className="font-display text-2xl font-bold mb-1">Dr. Shubhangi kumari</h3>
-                    <p className="text-primary-100 text-sm">Senior Homeopathy Consultant</p>
+                  
+                    <h3 className="font-display text-2xl font-bold mb-1 text-center">
+                      Dr. Shubhangi kumari
+                    </h3>
+                  
+                    <p className="text-primary-100 text-sm text-center">
+                      Senior Homeopathy Consultant
+                    </p>
+                  
                   </div>
-                </div>
-              </div>
               
               {/* Experience Badge */}
               <motion.div
