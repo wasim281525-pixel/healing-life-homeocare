@@ -64,46 +64,39 @@ function About() {
 
         <div ref={ref} className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Doctor Image & Info */}
-                  <motion.div
-                    initial={{ opacity: 0, x: -50 }}
-                    animate={inView ? { opacity: 1, x: 0 } : {}}
-                    transition={{ duration: 0.8 }}
-                    className="relative"
-                  >
-                    <div className="relative">
-                      {/* Decorative Elements */}
-                      <div className="absolute -inset-4 bg-gradient-to-br from-primary-100 to-secondary-100 rounded-3xl transform rotate-2" />
-                      
-                      {/* Main Image Card */}
-                      <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden">
-                        <div className="aspect-[4/5] bg-gradient-to-br from-primary-200 to-primary-300 relative">
-                          
-                          {/* Doctor Avatar */}
-                          <div className="absolute inset-0 flex items-center justify-center">
-                            <div className="text-center">
-                              
-                              {/* 🔥 IMAGE ADDED HERE */}
-                              <img 
-                                src="/doctor.png" 
-                                alt="Dr. Shubhangi kumari"
-                                className="w-40 h-40 mx-auto mb-6 rounded-full object-cover border-4 border-white shadow-lg"
-                              />
-                  
-                              <p className="text-white/60 text-lg">Dr. Shubhangi kumari</p>
-                            </div>
-                          </div>
-                  
-                        </div>
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            animate={inView ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 0.8 }}
+            className="relative"
+          >
+            <div className="relative">
+              {/* Decorative Elements */}
+              <div className="absolute -inset-4 bg-gradient-to-br from-primary-100 to-secondary-100 rounded-3xl transform rotate-2" />
+              
+              {/* Main Image Card */}
+              <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden">
+                <div className="aspect-[4/5] bg-gradient-to-br from-primary-200 to-primary-300 relative">
+                  {/* Doctor Avatar Placeholder */}
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="text-center">
+                      <div className="w-40 h-40 mx-auto mb-6 bg-white/30 rounded-full flex items-center justify-center">
+                        <img 
+                              src="/doctor.png" 
+                              alt="Dr. Shubhangi kumari"
+                              className="w-20 h-20 object-cover rounded-full"
+                        />
                       </div>
+                      <p className="text-white/60 text-lg">Dr. Sarah Johnson</p>
                     </div>
-                  </motion.div>
+                  </div>
                   
                   {/* Gradient Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-primary-900/80 via-transparent to-transparent" />
                   
                   {/* Info Overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <h3 className="font-display text-2xl font-bold mb-1">Dr. Shubhangi kumari</h3>
+                    <h3 className="font-display text-2xl font-bold mb-1">Dr. Sarah Johnson</h3>
                     <p className="text-primary-100 text-sm">Senior Homeopathy Consultant</p>
                   </div>
                 </div>
@@ -137,14 +130,14 @@ function About() {
               </h3>
               
               <p className="text-gray-600 leading-relaxed">
-                Dr. Shubhangi kumari is a highly experienced homeopathic practitioner 
+                Dr. Sarah Johnson is a highly experienced homeopathic practitioner 
                 with a passion for holistic healthcare. She completed her BHMS from 
                 the prestigious Homeopathy Medical College and later pursued her MD 
                 in Homeopathy from Mumbai University.
               </p>
               
               <p className="text-gray-600 leading-relaxed">
-                With over 10 years of clinical experience, Dr. Shubhangi has successfully 
+                With over 10 years of clinical experience, Dr. Johnson has successfully 
                 treated thousands of patients suffering from chronic diseases, skin 
                 disorders, allergies, and pediatric conditions. Her approach combines 
                 traditional homeopathic principles with modern diagnostic techniques.
