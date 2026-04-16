@@ -24,11 +24,7 @@ function About() {
   return (
     <section id="about" className="py-24 bg-white relative overflow-hidden">
       {/* Background Decorations */}
-      <img
-          src="/DrShubhangi.png"
-          alt="Doctor"
-          className="w-24 h-24 rounded-full object-cover border-2 border-white shadow-md"
-        />
+      <div className="absolute top-0 left-0 w-96 h-96 bg-primary-50 rounded-full filter blur-3xl opacity-50 -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-secondary-50 rounded-full filter blur-3xl opacity-50 translate-x-1/2 translate-y-1/2" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -102,7 +98,11 @@ function About() {
                   <div className="absolute inset-0 bg-gradient-to-t from-primary-900/80 via-transparent to-transparent" />
                   
                   {/* Info Overlay */}
-                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                   <img
+                      src="/DrShubhangi.png"
+                      alt="Doctor"
+                      className="w-60 h-60 mx-auto mb-6 rounded-full object-contain border-4 border-white shadow-lg"
+                    />
                     <h3 className="font-display text-2xl font-bold mb-1">Dr. Shubhangi kumari</h3>
                     <p className="text-primary-100 text-sm">Senior Homeopathy Consultant</p>
                   </div>
