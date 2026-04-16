@@ -83,7 +83,7 @@ export default function Testimonials() {
               ))}
           </div>
 
-          {/
+          {/* */}
           <div className="flex justify-between mt-6">
             <button
               onClick={prevTestimonial}
