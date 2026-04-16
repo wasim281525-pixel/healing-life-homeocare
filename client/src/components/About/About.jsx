@@ -64,30 +64,39 @@ function About() {
 
         <div ref={ref} className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Doctor Image & Info */}
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8 }}
-            className="relative"
-          >
-            <div className="relative">
-              {/* Decorative Elements */}
-              <div className="absolute -inset-4 bg-gradient-to-br from-primary-100 to-secondary-100 rounded-3xl transform rotate-2" />
-              
-              {/* Main Image Card */}
-              <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden">
-                <div className="aspect-[4/5] bg-gradient-to-br from-primary-200 to-primary-300 relative">
-                  {/* Doctor Avatar Placeholder */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-40 h-40 mx-auto mb-6 bg-white/30 rounded-full flex items-center justify-center">
-                        <svg className="w-20 h-20 text-white/80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                        </svg>
+                  <motion.div
+                    initial={{ opacity: 0, x: -50 }}
+                    animate={inView ? { opacity: 1, x: 0 } : {}}
+                    transition={{ duration: 0.8 }}
+                    className="relative"
+                  >
+                    <div className="relative">
+                      {/* Decorative Elements */}
+                      <div className="absolute -inset-4 bg-gradient-to-br from-primary-100 to-secondary-100 rounded-3xl transform rotate-2" />
+                      
+                      {/* Main Image Card */}
+                      <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden">
+                        <div className="aspect-[4/5] bg-gradient-to-br from-primary-200 to-primary-300 relative">
+                          
+                          {/* Doctor Avatar */}
+                          <div className="absolute inset-0 flex items-center justify-center">
+                            <div className="text-center">
+                              
+                              {/* 🔥 IMAGE ADDED HERE */}
+                              <img 
+                                src="/doctor.png" 
+                                alt="Dr. Shubhangi kumari"
+                                className="w-40 h-40 mx-auto mb-6 rounded-full object-cover border-4 border-white shadow-lg"
+                              />
+                  
+                              <p className="text-white/60 text-lg">Dr. Shubhangi kumari</p>
+                            </div>
+                          </div>
+                  
+                        </div>
                       </div>
-                      <p className="text-white/60 text-lg">Dr. Shubhangi kumari</p>
                     </div>
-                  </div>
+                  </motion.div>
                   
                   {/* Gradient Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-primary-900/80 via-transparent to-transparent" />
