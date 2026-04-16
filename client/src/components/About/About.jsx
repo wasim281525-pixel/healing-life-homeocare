@@ -118,7 +118,6 @@ function About() {
                       </p>
                     
                     </div>
-                  </div>
               
               {/* Experience Badge */}
               <motion.div
