@@ -85,7 +85,7 @@ function About() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                         </svg>
                       </div>
-                      <p className="text-white/60 text-lg">Dr. Sarah Johnson</p>
+                      <p className="text-white/60 text-lg">Dr. Shubhangi kumari</p>
                     </div>
                   </div>
                   
@@ -94,7 +94,7 @@ function About() {
                   
                   {/* Info Overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <h3 className="font-display text-2xl font-bold mb-1">Dr. Sarah Johnson</h3>
+                    <h3 className="font-display text-2xl font-bold mb-1">Dr. Shubhangi kumari</h3>
                     <p className="text-primary-100 text-sm">Senior Homeopathy Consultant</p>
                   </div>
                 </div>
@@ -128,14 +128,14 @@ function About() {
               </h3>
               
               <p className="text-gray-600 leading-relaxed">
-                Dr. Sarah Johnson is a highly experienced homeopathic practitioner 
+                Dr. Shubhangi kumari is a highly experienced homeopathic practitioner 
                 with a passion for holistic healthcare. She completed her BHMS from 
                 the prestigious Homeopathy Medical College and later pursued her MD 
                 in Homeopathy from Mumbai University.
               </p>
               
               <p className="text-gray-600 leading-relaxed">
-                With over 10 years of clinical experience, Dr. Johnson has successfully 
+                With over 10 years of clinical experience, Dr. Shubhangi has successfully 
                 treated thousands of patients suffering from chronic diseases, skin 
                 disorders, allergies, and pediatric conditions. Her approach combines 
                 traditional homeopathic principles with modern diagnostic techniques.
