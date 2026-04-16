@@ -10,7 +10,7 @@ const defaultTestimonials = [
     name: 'Priya Sharma',
     rating: 5,
     review:
-      "After suffering from chronic skin allergies for years, Dr. Sarah's treatment brought me relief within 2 months. The natural approach worked wonders without any side effects.",
+      "After suffering from chronic skin allergies for years, Dr. SHubhangi treatment brought me relief within 2 months. The natural approach worked wonders without any side effects.",
     treatment: 'Skin Allergies',
     date: '2024-01-15',
   },
