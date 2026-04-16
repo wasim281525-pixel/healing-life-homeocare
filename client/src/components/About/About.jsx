@@ -84,7 +84,7 @@ function About() {
                     <img
                       src="/DrShubhangi.png"
                       alt="Doctor"
-                      className="w-40 h-40 mx-auto mb-6 rounded-full object-cover border-4 border-white shadow-lg"
+                      className="w-60 h-60 mx-auto mb-6 rounded-full object-cover border-4 border-white shadow-lg"
                     />
                 
                     <p className="text-white/60 text-lg">
