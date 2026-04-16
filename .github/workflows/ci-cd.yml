@@ -21,13 +21,13 @@ jobs:
       # 🔧 Backend install
       - name: 📦 Install backend deps
         run: |
-          cd backend
+          cd server
           npm install
 
       # 🔧 Frontend install + build
       - name: 🎨 Build frontend
         run: |
-          cd frontend
+          cd client
           npm install
           npm run build
 
