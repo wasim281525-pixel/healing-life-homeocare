@@ -81,11 +81,11 @@ function About() {
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center">
                       <div className="w-40 h-40 mx-auto mb-6 bg-white/30 rounded-full flex items-center justify-center">
-                        <img 
-                              src="/doctor.png" 
-                              alt="Dr. Shubhangi kumari"
-                              className="w-20 h-20 object-cover rounded-full"
-                        />
+                      <img 
+                         src="/doctor.png" 
+                          alt="Dr. Shubhangi kumari"
+                          className="w-full h-full object-cover"
+                      />
                       </div>
                       <p className="text-white/60 text-lg">Dr. Sarah Johnson</p>
                     </div>
