@@ -24,13 +24,7 @@ function About() {
   return (
     <section id="about" className="py-24 bg-white relative overflow-hidden">
       {/* Background Decorations */}
-      <div className="absolute top-0 left-0 w-96 h-96 -translate-x-1/2 -translate-y-1/2 opacity-40">
-        <img
-          src="/DrShubhangi.png"
-          alt="bg"
-          className="w-full h-full object-cover rounded-full blur-2xl"
-        />
-      </div>
+      <div className="absolute top-0 left-0 w-96 h-96 bg-primary-50 rounded-full filter blur-3xl opacity-50 -translate-x-1/2 -translate-y-1/2" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-secondary-50 rounded-full filter blur-3xl opacity-50 translate-x-1/2 translate-y-1/2" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -87,11 +81,8 @@ function About() {
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center">
                       <div className="w-40 h-40 mx-auto mb-6 bg-white/30 rounded-full flex items-center justify-center">
-                        <img 
-                          src="/DrShubhangi.png"
-                          alt="Doctor"
-                          className="w-20 h-20 rounded-full object-cover"
-                        />
+                        <svg className="w-20 h-20 text-white/80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                         </svg>
                       </div>
                       <p className="text-white/60 text-lg">Dr. Shubhangi kumari</p>
