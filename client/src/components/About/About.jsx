@@ -79,16 +79,20 @@ function About() {
                 <div className="aspect-[4/5] bg-gradient-to-br from-primary-200 to-primary-300 relative">
                   {/* Doctor Avatar Placeholder */}
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <img
-                        src="/DrShubhangi.png"
-                        alt="Doctor"
-                        className="w-40 h-40 mx-auto mb-6 rounded-full object-cover border-4 border-white shadow-lg"
-                      />
-                      </div>
-                      <p className="text-white/60 text-lg">Dr. Shubhangi kumari</p>
-                    </div>
+                  <div className="text-center">
+                    
+                    <img
+                      src="/DrShubhangi.png"
+                      alt="Doctor"
+                      className="w-40 h-40 mx-auto mb-6 rounded-full object-cover border-4 border-white shadow-lg"
+                    />
+                
+                    <p className="text-white/60 text-lg">
+                      Dr. Shubhangi kumari
+                    </p>
+                
                   </div>
+                </div>
                   
                   {/* Gradient Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-primary-900/80 via-transparent to-transparent" />
