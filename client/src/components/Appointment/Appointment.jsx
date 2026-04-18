@@ -170,7 +170,7 @@ function Appointment() {
                 className="flex items-center gap-3 text-xl font-bold text-primary-600 hover:text-primary-700"
               >
                 <Phone className="w-6 h-6" />
-                +91 98765 43210
+                +91 63035 55616
               </a>
             </motion.div>
           </motion.div>
@@ -237,7 +237,7 @@ function Appointment() {
                         onChange={handleChange}
                         required
                         className="w-full pl-12 pr-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all"
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 63035 55616"
                       />
                     </div>
                   </div>
